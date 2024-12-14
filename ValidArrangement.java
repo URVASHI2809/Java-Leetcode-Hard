@@ -47,8 +47,6 @@ public class ValidArrangement {
         for (int i = pathSize - 1; i > 0; --i) {
             arrangement[pathSize - 1 - i] = new int[]{path.get(i), path.get(i - 1)};
         }
-        
-        // Step 6: Return the valid arrangement
         return arrangement;
     }
 
