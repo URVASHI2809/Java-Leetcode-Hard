@@ -62,10 +62,5 @@ public class ValidArrangement {
         int[][] pairs2 = {{1, 3}, {3, 2}, {2, 1}};
         System.out.println(Arrays.deepToString(valid.validArrangement(pairs2))); 
         // Output: [[1, 3], [3, 2], [2, 1]]
-
-        // Example 3
-        int[][] pairs3 = {{1, 2}, {1, 3}, {2, 1}};
-        System.out.println(Arrays.deepToString(valid.validArrangement(pairs3))); 
-        // Output: [[1, 2], [2, 1], [1, 3]]
     }
 }
